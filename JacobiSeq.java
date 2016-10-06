@@ -17,8 +17,7 @@ public class JacobiSeq {
 
 		
 		long t1 = System.currentTimeMillis();
-		// int n = Matrix dimension
-		// long seed = Random seed
+		
 		if(args.length != 2)
 		{
 			System.err.println("worng input :   Please check your argument ");
@@ -92,7 +91,7 @@ public class JacobiSeq {
 				
 				// store the new value of y as pre-condition x
 				
-			}// end of while loop
+			}
 		}catch(Exception e){
 			e.printStackTrace();
 		}
@@ -112,6 +111,6 @@ public class JacobiSeq {
 
 		
 		System.out.printf ("%d msec%n", t2 - t1); 
-	}// end of main
+	}
 }
 
