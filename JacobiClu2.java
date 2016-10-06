@@ -19,7 +19,6 @@ import edu.rit.pj.reduction.BooleanOp;
  */
 import edu.rit.util.Random;
 import edu.rit.util.Range;
-//import edu.rit.util.Searching.Integer;
 
 
 public class JacobiClu {
@@ -185,7 +184,7 @@ public class JacobiClu {
 			System.out.printf ("%d msec%n", t2-t1); 
 
 		}
-	}// end of main
+	}
 }
 
 
