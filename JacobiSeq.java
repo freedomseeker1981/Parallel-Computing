@@ -6,6 +6,7 @@
  * Project: Programming Project I sequential version
  * Description: This program implements the jacobi method to solve linear algebra equations and test the convergnces
  * against the value of 10^-8 and stops the iteration at that level and prints the results
+ * This will make the use of shared memory of the PJ library. 
  */
 import edu.rit.util.Random;
 import edu.rit.pj.Comm;
